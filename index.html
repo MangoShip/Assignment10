@@ -1,0 +1,80 @@
+<!-- File: index.html -->
+<!-- Name: Mingun Cho  -->
+<!-- CruzID: mcho23@ucsc.edu -->
+<!-- StudentID: 1654724 -->
+
+<!DOCTYPE html>
+<html> 
+  <head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+	 <!--Title of the website -->
+    <title>CSE163 Assignment10</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="PhilPopDensitystyleesheet.css">
+    <!-- D3.js Source -->
+    <script type= "text/javascript" src="https://d3js.org/d3.v5.min.js"></script>        
+  </head>
+  <body>
+     <!-- Title -->
+	 <div id="graph">
+		 <div class = "title"><span id="title">Phillipines Population Density, 2015</span></div>
+		 <div style = "padding-bottom: 0.5em; text-align: center"> 
+	        <input type ="radio" id = "PD" name = "PH" onclick="Population_Density()" checked>
+			 <label for = "PD">Population Density</label>
+			<input type ="radio" id = "HD" name = "PH" onclick="Highest_Elevation()">
+			 <label for = "PD">Highest Elevation</label>
+	     </div> 
+		 <h4 style = "position: absolute; margin-top: 700px; line-height: 5px">
+		  <p>Mingun Cho</p>
+	  	  <p>Intructor: Suresh Lodha</p>
+		  <p>D3 Resources: </p>
+			 <ul style = line-height:17px>
+				 <li><a href="https://github.com/d3/d3/blob/master/API.md"> D3 API Reference</a></li>
+				 <li>Interactive Data Visualization for the Web 2nd Edition</li>
+			 </ul>
+		  <p>Web Resources: </p>
+			 <ul style = line-height:20px>
+				 <li><a href="https://bl.ocks.org/mbostock/5562380"> California Population Density by Mike Bostock</a></li>
+                 <li><a href="https://github.com/wcoatesucsc/data-visualizations/tree/master/DenmarkPopulationDensity"> DenmarkPopulationDensity by wcoatesucsc</a></li>
+                 <li><a href="https://observablehq.com/@bumbeishvili/rewind-geojson"> Rewind Geojson Online by David B.</a></li>
+			 </ul>
+		  <p>Data Resources: </p>
+			 <ul style = line-height:10px>
+				 <li><a href="https://en.wikipedia.org/wiki/Regions_of_the_Philippines#Administrative_region"> Regions of the Philippines</a></li>
+			 </ul>
+		  <p>CSE 163: Data programming for Visualization</p>
+		  <p>Spring 2020</p>
+	     </h4>
+	 </div>
+    <!-- D3.js code -->
+    <script type="text/javascript" src="PhilPopDensity.js"></script>
+    <!-- Submission Info -->
+    <!--<h4>Created by "Mingun Cho" </h4>-->
+    <!--<h4>Description: GEOMapping Phillipines by region</h4>-->  
+    <!--<h4>Files Submitted:</h4>-->
+    <!--<ul>
+      <li>index.html</li>
+      <li>PhilPopDensity.js</li>
+      <li>PhilPopDensitystylesheet.css</li>
+      <li>PopulationDensity.csv</li>
+      <li>HighestElevation.csv
+      <li>Phillipines.json</li>
+    </ul>-->
+    <!--<h4> Resources/References: </h4>-->
+    <!--<ul>
+      <li>D3 API Reference</li>
+      <li>Interactive Data Visualization for the Web</li>
+    </ul>-->
+    <!--<h4> Web Resources: </h4>-->
+    <!--<ul>
+      <li><a href="https://bl.ocks.org/mbostock/5562380"> California Population Density by Mike Bostock</a></li>
+      <li><a href="https://github.com/wcoatesucsc/data-visualizations/tree/master/DenmarkPopulationDensity"> DenmarkPopulationDensity by wcoatesucsc</a></li>
+      <li><a href="https://observablehq.com/@bumbeishvili/rewind-geojson"> Rewind Geojson Online by David B.</a></li>
+    </ul>-->
+		<!--<h4> Data Resources: </h4>-->
+    <!--<ul>
+      <li><a href="https://en.wikipedia.org/wiki/Regions_of_the_Philippines#Administrative_region"> Regions of the Philippines</a></li>
+    </ul>-->
+  </body>
+</html>

@@ -1,0 +1,16 @@
+/* ----------------------------------------------------------------------------
+File: PhilPopDensitystylesheet.css
+Name: Mingun Cho 
+CruzID: mcho23@ucsc.edu
+StudentID: 1654724
+-----------------------------------------------------------------------------*/
+
+/* Set style for title*/
+.title{
+	text-align:center; 
+	color:black;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
